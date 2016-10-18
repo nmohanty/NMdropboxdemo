@@ -16,7 +16,7 @@ Optional: Add Text Fields for the forms so you can actually type in them and han
 
 Here's a walkthrough of implemented user stories:
 
-XXX.gif
+![NMdropboxdemo gif](NMdropboxdemo.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
