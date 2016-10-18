@@ -4,6 +4,7 @@
 The **required** functionality  are completed:
 
 The following **additional** features are implemented:
+
 Optional: Add a detail view for one of the files and implement favoriting the file.
 
 Configure button states for default and selected.
