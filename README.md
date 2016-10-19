@@ -1,19 +1,43 @@
 # NMdropboxdemo
 
-# User Stories
-The **required** functionality  are completed:
+## Dropbox
 
-The following **additional** features are implemented:
+Project name on github: NMdropboxdemo
+The purpose of this homework is to use Xcode to implement the flow between the screens of an application. We're going to use the techniques from this week to implement the Dropbox app from the signed out state to the basic signed in state.
 
-Optional: Add a detail view for one of the files and implement favoriting the file.
+Time spent: `15hours`
 
-Configure button states for default and selected.
-Toggle between selected and default states
-Optional: Add Text Fields for the forms so you can actually type in them and handle dismissing the Keyboard (Done partially)
+### Features
 
+#### Required
 
+- [ ] User can tap through the 3 welcome screens.
+- [ ] User can follow the create user flow.
+  - [ ] On the create user form, the user can tap the back button to go to the page where they can sign in or create an account.
+  - [ ] Before creating the account, user can choose to read the terms of service.
+  - [ ] After creating the account, user can view the placeholders for Files, Photos, and Favorites as well as the Settings screen.
+  - [ ] User can log out from the Settings screen.
+- [ ] User can follow the sign in flow.
+  - [ ] User can tap the area for "Having trouble signing in?".
+  - [ ] User can log out from the Settings screen.
 
-## Video Walkthrough 
+#### Optional (some of the optionals have been executed differently than explained in codepath instructions)
+
+- [ ] User can view a detail view for one of the files and favorite the file.
+- [ ] User can actually type in the forms and tap to dismiss the keyboard.
+- [ ] User can swipe through the welcome screens instead of just tapping them.
+- [ ] User sees updated password strength as they type in password field.
+
+#### The following **additional** features are implemented:
+
+None
+
+Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
+
+1. Moving the view inside a view in reference to the keyboard
+2. Am not sure if i implemented the detail view and favourite icon use as intended in the assignment
+
+### Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
@@ -25,18 +49,4 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 Describe any challenges encountered while building the app.
 
-## License
-
-    Copyright [yyyy] [name of copyright owner]
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+I started the project not realising that there are instructions to follow. So the welcome screen swipe is made using the swipe gesture controller and not per the instructions. Had some difficulty doing the moving subview in the log in on create page. Scrolling was not working till i moved the scrollview and imageview to 0,0.
